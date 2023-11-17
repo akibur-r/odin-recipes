@@ -1,0 +1,76 @@
+* {
+  padding: none;
+  margin: none;
+}
+.main-heading {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 5vw;
+  padding: 0;
+  margin: 0;
+}
+
+div.container {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 10vh;
+}
+
+div.dv {
+  margin: 5vh;
+  padding: 7vh;
+  height: 50vh;
+  width: 20vw;
+  float: left;
+  background-color: yellowgreen;
+  color: rgb(245, 245, 245);
+  align-items: center;
+  text-align: center;
+  box-sizing: content-box;
+  border-radius: 1vh;
+  border-color: transparent;
+
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: center;
+  background-size: cover;
+
+  transition-delay: 50ms;
+  transition-duration: 100ms;
+}
+
+.dv:hover {
+  opacity: 0.95;
+  font-size: 10.1vh;
+  color: rgb(255, 234, 234);
+}
+
+.dv.pizza {
+  background-image: url("recipes/pizza.jpg");
+}
+
+.dv.oatmeal {
+  background-image: url("recipes/oatmeal-2.jpg");
+}
+
+.dv.burger {
+  background-image: url("recipes/burger.jpg");
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  padding: none;
+  margin: none;
+  height: auto;
+  width: 100vw;
+  background-color: transparent;
+  font-size: 1vw;
+  text-align: center;
+}

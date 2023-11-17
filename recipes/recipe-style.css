@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 240, 234);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: white;
+}
+
+div.body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-repeat: repeat;
+  background-origin: border-box;
+  background-position: center;
+  background-size: cover;
+}
+
+div.burger {
+  background-image: url("burger.jpg");
+}
+
+div.oatmeal {
+  background-image: url("oatmeal.jpg");
+}
+
+div.pizza {
+  background-image: url("pizza.jpg");
+}
+
+.header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 10vh;
+  text-align: center;
+  padding: 1vh;
+  width: 100%;
+}
+
+.details {
+  width: 95%;
+  height: 30vh;
+  margin: 2vh;
+  padding: 1vh;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+
+  font-size: 4.5vh;
+  text-align: justify;
+
+  box-sizing: border-box;
+  border-radius: 1vh;
+}
+
+.recipe {
+  color: black;
+  font-size: 2.5vh;
+  width: 95%;
+  height: auto;
+  margin: 3.5vh;
+  margin-top: 1vh;
+  padding: 1vh;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.ingredients {
+  float: left;
+  width: 45vw;
+  height: auto;
+
+  box-sizing: border-box;
+  border-radius: 1vh;
+  background-color: rgba(255, 255, 255, 0.6);
+
+  margin-left: 0.1vw;
+  padding: 4vh;
+}
+
+.steps {
+  float: left;
+  width: 45vw;
+  height: auto;
+  margin-left: 2vw;
+  margin-right: none;
+
+  box-sizing: border-box;
+  border-radius: 1vh;
+  background-color: rgba(255, 255, 255, 0.6);
+
+  padding: 4vh;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  padding: none;
+  margin: none;
+  height: auto;
+  width: 100vw;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 1vw;
+  text-align: center;
+}
